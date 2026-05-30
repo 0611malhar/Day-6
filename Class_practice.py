@@ -18,9 +18,9 @@
 #     def __init__(self,num):
 #         self.num = num
 #     def calculation(self):
-#         print("Square of number is:",num**2)
-#         print("Cube of number is:",num**3)
-#         print("Square root of number is:",num**0.5)
+#         print("Square of number is:",self.num**2)
+#         print("Cube of number is:",self.num**3)
+#         print("Square root of number is:",self.num**0.5)
 
 # num = int(input("Enter the number"))
 # c = calc(num)
@@ -34,9 +34,9 @@
 # class Programmer:
 #     a = 12
 # p1 = Programmer()
-# o = 23
-# p1.a = o
-# print(p1.a)
+# p1.a = 23
+# print(p1.a)          # 23
+# print(Programmer.a)  # 12
 
 
 # '''
@@ -50,9 +50,9 @@
 #     def greet():
 #         print("hello")
 #     def calculation(self):
-#         print("Square of number is:",num**2)
-#         print("Cube of number is:",num**3)
-#         print("Square root of number is:",num**0.5)
+#         print("Square of number is:",self.num**2)
+#         print("Cube of number is:",self.num**3)
+#         print("Square root of number is:",self.num**0.5)
 
 # num = int(input("Enter the number"))
 # c = calc(num)
@@ -74,6 +74,8 @@
 #         if(self.total-self.occ>0):
 #             print("Ticket booked")
 #             self.occ+=1
+#         else:
+#             print("No seats available!")
 #     def Get_Status(self):
 #         if(self.total-self.occ>0):
 #             print("Total seats available are:",self.total-self.occ)
@@ -98,9 +100,9 @@
 #     def __init__(slf,num):
 #         slf.num = num
 #     def calculation(slf):
-#         print("Square of number is:",num**2)
-#         print("Cube of number is:",num**3)
-#         print("Square root of number is:",num**0.5)
+#         print("Square of number is:",slf.num**2)
+#         print("Cube of number is:",slf.num**3)
+#         print("Square root of number is:",slf.num**0.5)
 
 # num = int(input("Enter the number"))
 # c = calc(num)
